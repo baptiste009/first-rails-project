@@ -6,17 +6,16 @@ h1 {
 	margin-bottom: 30px;
 }
 
-table {
-	table-layout:fixed; 
-	width: 80%;
-	padding-top: 60px;
-	}
+.products-heading {
+	font-weight: bold;
+}
 
-th, td {
-	padding-left: 30px;
-	overflow:hidden;
-	width:20px; 
-  	word-wrap:break-word;
+.col-md-2, .col-md-4 {
+	padding-top: 10px;
+}
+
+.product-action {
+	padding-left: 10px;
 }
 
 .add-new-product {
@@ -24,6 +23,10 @@ th, td {
 }
 
 .product-information {
+	padding-left: 30px;
+}
+
+.form {
 	padding-left: 30px;
 }
 
