@@ -1,0 +1,219 @@
+/* line 5, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+h1 {
+  margin-bottom: 30px;
+}
+
+/* line 9, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.products-heading {
+  font-weight: bold;
+}
+
+/* line 13, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.col-md-2, .col-md-4 {
+  padding-top: 10px;
+}
+
+/* line 17, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.product-action {
+  padding-left: 10px;
+}
+
+/* line 21, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.add-new-product {
+  padding-left: 30px;
+}
+
+/* line 25, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.product-information {
+  padding-left: 30px;
+}
+
+/* line 29, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.form {
+  padding-left: 30px;
+}
+/* line 1, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 5, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 10, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+}
+
+/* line 15, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+h1, h4 {
+  text-align: center;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+/* line 21, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+h2 {
+  padding-left: 30px;
+}
+
+/* line 25, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.product-name {
+  padding-left: 30px;
+}
+
+/*Navigation*/
+/* line 30, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.nav {
+  float: right;
+}
+
+/* line 34, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.navbar li {
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+}
+
+/* line 40, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.navbar {
+  z-index: 1;
+}
+
+/* line 44, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+/* Footer */
+/* line 51, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+  padding-left: 0px;
+}
+
+/* line 61, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.text-muted {
+  padding-top: 15px;
+  padding-left: 30px;
+  float: left;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  /* line 68, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+  .footer {
+    position: absolute;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 69, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
