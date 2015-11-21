@@ -10,8 +10,13 @@ h1 {
 	font-weight: bold;
 }
 
+.rows {
+	clear: left;
+}
+
 .col-md-2, .col-md-4 {
 	padding-top: 10px;
+	word-break: break-all;
 }
 
 .product-action {
