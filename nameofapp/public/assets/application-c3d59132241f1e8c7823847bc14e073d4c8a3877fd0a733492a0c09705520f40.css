@@ -4,28 +4,40 @@ h1 {
 }
 
 /* line 9, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
-table {
-  table-layout: fixed;
-  width: 80%;
-  padding-top: 60px;
+.products-heading {
+  font-weight: bold;
 }
 
-/* line 15, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
-th, td {
-  padding-left: 30px;
-  overflow: hidden;
-  width: 20px;
-  word-wrap: break-word;
+/* line 13, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.rows {
+  clear: left;
+}
+
+/* line 17, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.col-md-2, .col-md-4 {
+  padding-top: 10px;
+  word-break: break-all;
 }
 
 /* line 22, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.product-action {
+  padding-left: 10px;
+}
+
+/* line 26, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
 .add-new-product {
   padding-left: 30px;
 }
 
-/* line 26, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+/* line 30, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
 .product-information {
   padding-left: 30px;
+}
+
+/* line 34, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/products.scss */
+.form {
+  padding-left: 30px;
+  width: 30%;
 }
 /* line 1, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/scaffolds.scss */
 body {
@@ -125,33 +137,43 @@ h1, h4 {
   font-weight: 100;
 }
 
-/*Navigation*/
-/* line 22, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
-.nav {
-  float: right;
+/* line 21, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+h2 {
+  padding-left: 30px;
 }
 
-/* line 26, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+/* line 25, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.product-name {
+  padding-left: 30px;
+}
+
+/*Navigation*/
+/* line 31, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.navbar .navbar-form {
+  height: 50px;
+  margin: 0px;
+}
+
+/* line 36, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
 .navbar li {
-  display: inline-block;
   float: right;
   font-size: 16px;
 }
 
-/* line 32, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
-.navbar {
-  z-index: 1;
-}
-
-/* line 36, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+/* line 41, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
 .navbar-brand {
   text-transform: uppercase;
   font-size: 16px;
   padding-left: 30px;
 }
 
+/* line 47, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+label {
+  margin-bottom: 0px;
+}
+
 /* Footer */
-/* line 43, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+/* line 52, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -162,7 +184,7 @@ h1, h4 {
   padding-left: 0px;
 }
 
-/* line 53, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+/* line 62, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
 .text-muted {
   padding-top: 15px;
   padding-left: 30px;
@@ -171,14 +193,14 @@ h1, h4 {
 }
 
 @media (max-width: 768px) {
-  /* line 60, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+  /* line 69, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
   .footer {
     position: absolute;
     width: 100%;
   }
 }
 @media (min-width: 768px) {
-  /* line 61, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+  /* line 70, /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/assets/stylesheets/static_pages.css.scss */
   .footer {
     position: absolute;
     bottom: 0;

@@ -13,31 +13,31 @@
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-static-top" role="navigation"><!--navbar starts here-->
-	 <div class="container-fluid">
-	   <div class="navbar-header">
-	     <button type="button" class="navbar-toggle" data-toggle="collapse" 
-	      data-target=".navbar-collapse">
-	     <span class="sr-only">Toggle navigation</span>
-	     <span class="icon-bar"></span>
-	     <span class="icon-bar"></span>
-	     <span class="icon-bar"></span>
-	     </button>
-	    <%= link_to "Powerpay", root_path, class: "navbar-brand"%>
-	   </div>
-	   <div class="navbar-collapse collapse">
-	     <ul class="nav navbar-nav">
-			<li><%= link_to "Create new product", new_product_path %></li>
-			<li><%= link_to "Products", products_path %></li>
-			<%= form_tag("/products", method: "get") do %>
-  				<%= label_tag(:q, "Search for:") %>
-  				<%= text_field_tag(:q) %>
-				<%= submit_tag("Search") %>
-			<% end %>
-	     </ul>
-	    </div>
-	  </div>
-	 </div>
+		<div class="container-fluid">
+			<div class="navbar-header">
+		     	<button type="button" class="navbar-toggle" data-toggle="collapse" 
+		      	data-target=".navbar-collapse">
+		     	<span class="sr-only">Toggle navigation</span>
+		     	<span class="icon-bar"></span>
+		     	<span class="icon-bar"></span>
+		     	<span class="icon-bar"></span>
+		     	</button>
+		    	<%= link_to "Powerpay", root_path, class: "navbar-brand"%>
+	   		</div>
+			<div class="navbar-collapse collapse">
+	    		<ul class="nav navbar-nav">
+					<li><%= link_to "Create new product", new_product_path %></li>
+					<li><%= link_to "Products", products_path %></li>
+	    		</ul>
+				<%= form_tag("/products", method: "get", :class => "navbar-form navbar-left") do %>
+  					<%= label_tag(:q, "Search for:", :class => "form-control") %>
+  					<%= text_field_tag(:q, nil, :class => "form-control") %>
+					<%= submit_tag("Search", :class => "btn btn-default navbar-btn") %>
+				<% end %>
+	    	</div>
+	  	</div>
 	</nav>
+
 	<h1>Welcome to Powerpay</h1>
 	<h4>Your source for innovative payment solutions</h4>
 
