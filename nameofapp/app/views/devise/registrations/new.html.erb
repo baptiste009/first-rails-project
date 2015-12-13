@@ -3,6 +3,16 @@
   <h2>Sign up</h2>
 
   <div class="field form-group">
+    <%= f.label :first_name, class:"sr-only" %><br />
+    <%= f.text_field :first_name, autofocus: true, class:"form-control", placeholder:"First name" %>
+  </div>
+
+  <div class="field form-group">
+    <%= f.label :last_name, class:"sr-only" %><br />
+    <%= f.text_field :last_name, autofocus: true, class:"form-control", placeholder:"Last name" %>
+  </div>
+
+  <div class="field form-group">
     <%= f.label :email, class:"sr-only" %><br />
     <%= f.email_field :email, autofocus: true, class:"form-control", placeholder:"Email adress" %>
   </div>
