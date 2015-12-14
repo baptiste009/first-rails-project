@@ -1,0 +1,20 @@
+current directory: /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.10/ext/mri
+/Users/timseithe/.rvm/rubies/ruby-2.2.3/bin/ruby -r ./siteconf20151214-1595-11ijw4k.rb extconf.rb
+creating Makefile
+
+current directory: /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+current directory: /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/vendor/bundle/ruby/2.2.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bcrypt_ext.bundle ./.gem.20151214-1595-aeunnk
