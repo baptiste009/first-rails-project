@@ -1,2 +1,2 @@
 ---
-BUNDLE_WITHOUT: nothing:production:development:test:nokogiri:1.6.7:bcrypt:3.1.10
+BUNDLE_WITHOUT: production:nothing:development:test:nokogiri:1.6.7:bcrypt:3.1.10
