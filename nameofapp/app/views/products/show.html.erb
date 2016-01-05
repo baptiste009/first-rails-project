@@ -27,4 +27,5 @@
 	<%= link_to 'Back', products_path %>
 	<%= render partial: 'shared/new_comment' %>
 	<%= render partial: 'shared/comments' %>
+	<%= will_paginate @comments %>
 </div>
