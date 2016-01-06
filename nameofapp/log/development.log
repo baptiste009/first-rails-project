@@ -32928,3 +32928,467 @@ Started GET "/assets/star-off.png" for ::1 at 2016-01-06 18:39:57 +0100
 
 
 Started GET "/assets/star-on.png" for ::1 at 2016-01-06 18:39:57 +0100
+
+
+Started GET "/logout" for ::1 at 2016-01-06 19:06:30 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/logout"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.6ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.6ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (45.8ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.5ms)
+
+
+Started GET "/logout" for ::1 at 2016-01-06 19:06:33 +0100
+
+ActionController::RoutingError (No route matches [GET] "/logout"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.0ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.2ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.6ms)
+
+
+Started GET "/" for ::1 at 2016-01-06 19:06:36 +0100
+Processing by StaticPagesController#landing_page as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products" LIMIT 3
+  Rendered static_pages/landing_page.html.erb within layouts/application (113.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 250ms (Views: 243.3ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-01-06 19:06:38 +0100
+Processing by Users::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"eQU8gAxPX46vr7eE1PEgD1ILrPDhpVjojxxuxNjl26ru8srOw3YET+oM6Ax+/0yWSMOnk42AViR82EmTCN5hUA=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-01-06 19:06:38 +0100
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products" LIMIT 3[0m
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 101ms (Views: 100.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for ::1 at 2016-01-06 19:06:42 +0100
+Processing by Users::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2016-01-06 19:06:44 +0100
+
+LoadError (Unable to autoload constant UserRegistrationsController, expected /Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/controllers/user_registrations_controller.rb to define it):
+  activesupport (4.2.4) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  warden (1.2.4) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.4) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.4) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/timseithe/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.1ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.6ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (85.2ms)
+
+
+Started GET "/sign_up" for ::1 at 2016-01-06 19:08:16 +0100
+Processing by UserRegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 123ms (Views: 112.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/device.self-44e1ec168dd005ba6bc3dbf27a05cbde291947af0d844a34bcf054cd9648125f.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/scaffolds.self-5e5752d07623fd58ee623e5bcd21e0ad31b296906c129390a640a69a5c582283.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/static_pages.self-4831404bdbebbe64433a950fced1efd249aafd5b43bfb93a47a623996096cfc4.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/products.self-f72fc91ca9efa469edd4d1b4469988a10ed897fe5155294d00cf96c0209d12a4.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/users.self-686d24d633ceec8b1db80887dd71300b4b6a7b07328ce4d9136622bb4e6333bc.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/alerts.self-3435ec8900fef8224b98803f52a6198ca0c56e9d6b4ffd3631a0c564aa6a1e2e.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/site.self-5f12f11650859f5ab682a41c6f99b2692d7677b9c6474e683c470ad2ae809fdb.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:08:17 +0100
+
+
+Started POST "/" for ::1 at 2016-01-06 19:08:41 +0100
+Processing by UserRegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FnfrOuoqRDRgHcmoCuvFrpEqM4eI/93chiEoHTj3gK7WO7CgB1OPHS6HCekJSxfUMK+kKyXm1DZ96R9gFGECHQ==", "user"=>{"first_name"=>"007", "last_name"=>"008", "email"=>"tim.seithe@viomedo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'tim.seithe@viomedo.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "tim.seithe@viomedo.com"], ["encrypted_password", "$2a$10$qYFsGwfJQ0t.fo5elIZw2uys.U4BrDyfR50/lagGnpAoLv.tPFOmu"], ["first_name", "007"], ["last_name", "008"], ["created_at", "2016-01-06 18:08:41.731597"], ["updated_at", "2016-01-06 18:08:41.731597"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-01-06 18:08:41.734538"], ["current_sign_in_at", "2016-01-06 18:08:41.734538"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2016-01-06 18:08:41.735147"], ["id", 10]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 2.5ms)
+
+SyntaxError (/Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/mailers/user_mailer.rb:11: syntax error, unexpected =>, expecting ')'
+		mail (:to => user.email, :subject => "Welcome to #{@appname}")
+		            ^
+/Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/mailers/user_mailer.rb:11: syntax error, unexpected =>, expecting :: or '[' or '.'
+		mail (:to => user.email, :subject => "Welcome to #{@appname}")
+		                                    ^
+/Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/mailers/user_mailer.rb:11: syntax error, unexpected ')', expecting keyword_end
+/Users/timseithe/OneDrive/CareerFoundry/Rails/nameofapp/app/mailers/user_mailer.rb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/mailers/user_mailer.rb:11: syntax error, unexpected =>, expecting ')'
+  app/mailers/user_mailer.rb:11: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/mailers/user_mailer.rb:11: syntax error, unexpected ')', expecting keyword_end
+  app/mailers/user_mailer.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/user_registrations_controller.rb:6:in `create'
+
+
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.5ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/timseithe/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (90.1ms)
+
+
+Started POST "/" for ::1 at 2016-01-06 19:09:30 +0100
+Processing by UserRegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FnfrOuoqRDRgHcmoCuvFrpEqM4eI/93chiEoHTj3gK7WO7CgB1OPHS6HCekJSxfUMK+kKyXm1DZ96R9gFGECHQ==", "user"=>{"first_name"=>"007", "last_name"=>"008", "email"=>"tim.seithe@viomedo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'tim.seithe@viomedo.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 179ms (Views: 77.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/device.self-44e1ec168dd005ba6bc3dbf27a05cbde291947af0d844a34bcf054cd9648125f.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/static_pages.self-4831404bdbebbe64433a950fced1efd249aafd5b43bfb93a47a623996096cfc4.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/products.self-f72fc91ca9efa469edd4d1b4469988a10ed897fe5155294d00cf96c0209d12a4.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/scaffolds.self-5e5752d07623fd58ee623e5bcd21e0ad31b296906c129390a640a69a5c582283.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/users.self-686d24d633ceec8b1db80887dd71300b4b6a7b07328ce4d9136622bb4e6333bc.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/alerts.self-3435ec8900fef8224b98803f52a6198ca0c56e9d6b4ffd3631a0c564aa6a1e2e.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/site.self-5f12f11650859f5ab682a41c6f99b2692d7677b9c6474e683c470ad2ae809fdb.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-01-06 19:09:31 +0100
+
+
+Started POST "/" for ::1 at 2016-01-06 19:09:43 +0100
+Processing by UserRegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PfXHyYOnGstMuUyHtIxURoOXwImN+nGIr4ubOusXDPj9uZxTbt7R4gIjjMa3LIY8IhJXJSDjeGJUQ6xHx4GOSw==", "user"=>{"first_name"=>"007", "last_name"=>"008", "email"=>"timseithe@viomedo.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'timseithe@viomedo.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 166ms (Views: 80.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/" for ::1 at 2016-01-06 19:10:06 +0100
+Processing by UserRegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qlcb8mJA94wAM9awXmNX6WYogKpFV8kfUUJ7VNsPqz5qG0Bojzk8pU6pFvFdw4WTx60XBuhOwPWqikwp95kpjQ==", "user"=>{"first_name"=>"007", "last_name"=>"008", "email"=>"timseithe@hotmail.de", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'timseithe@hotmail.de' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 175ms (Views: 89.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/" for ::1 at 2016-01-06 19:10:16 +0100
+Processing by UserRegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5DnD+BbFVYjGqHfuddu+Wr8UChgHLsGlZGkrxdvTRwkkdZhi+7yeoYgyt692e2wgHpGdtKo3yE+foRy490XFug==", "user"=>{"first_name"=>"007", "last_name"=>"008", "email"=>"timseithe@hotmail.de", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'timseithe@hotmail.de' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 183ms (Views: 98.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/" for ::1 at 2016-01-06 19:10:38 +0100
+Processing by UserRegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2gtm/ZRo5kCrDzrNqoNflv81SsDpBc5YWU+kQH3octAaRz1neREtaeWV+oypI43sXrDdbEQcx7Kih5M9UX7wYw==", "user"=>{"first_name"=>"007", "last_name"=>"008", "email"=>"timseithe@hotmail.de", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'timseithe@hotmail.de' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "timseithe@hotmail.de"], ["encrypted_password", "$2a$10$BxxPf4y4xeOxraqw1kTgOOn7lCiElTW7zoK0BJARgahcf5tOIjk7q"], ["first_name", "007"], ["last_name", "008"], ["created_at", "2016-01-06 18:10:38.856870"], ["updated_at", "2016-01-06 18:10:38.856870"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-01-06 18:10:38.860379"], ["current_sign_in_at", "2016-01-06 18:10:38.860379"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2016-01-06 18:10:38.862497"], ["id", 11]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+  Rendered user_mailer/welcome.html.erb within layouts/mailer (0.4ms)
+
+UserMailer#welcome: processed outbound mail in 215.2ms
+
+Sent mail to timseithe@hotmail.de (366.3ms)
+Date: Wed, 06 Jan 2016 19:10:39 +0100
+From: timseithe@googlemail.com
+To: timseithe@hotmail.de
+Message-ID: <568d589f1960f_68b3fef1b2ac11086830@Tims-iMac-2.local.mail>
+Subject: Welcome to Powerpay!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <table>
+	<tbody>
+		<tr>
+			<td><h2>Welcome!</h2></td>
+		</tr>
+		<tr>
+			<td><p>Thank you for signing up with Powerpay</p></td>
+		</tr>
+		<tr>
+			<td><p><strong>Your Powerpay Team</strong></p></td>
+		</tr>
+	</tbody>
+</table>
+  </body>
+</html>
+
+Completed 302 Found in 682ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-06 19:10:39 +0100
+Processing by StaticPagesController#landing_page as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products" LIMIT 3
+  Rendered static_pages/landing_page.html.erb within layouts/application (7.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 11]]
+Completed 200 OK in 69ms (Views: 65.1ms | ActiveRecord: 0.6ms)

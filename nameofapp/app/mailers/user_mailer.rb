@@ -5,6 +5,13 @@ class UserMailer < ApplicationMailer
 	@message = message
 		mail(:from => email, :to => 'timseithe@googlemail.com', :subject => "A new contact from message from #{name}")
 	end
+
+	def welcome(user)
+ 	@appname = "Powerpay"
+  	mail( :to => user.email,
+        :subject => "Welcome to #{@appname}!")
+	end
+
 end
 
 def thank_you
